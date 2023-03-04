@@ -79,7 +79,7 @@ int main()
 
     curl_easy_setopt(handle, CURLOPT_WRITEDATA, (void * ) & data); //specifies that data is where to store msg received
 
-    curl_easy_setopt(handle, CURLOPT_URL, "https://www.merriam-webster.com/dictionary/test");
+    curl_easy_setopt(handle, CURLOPT_URL, "https://www.merriam-webster.com/dictionary/test"); //finds the definition of test
 
     //curl_easy_setopt(handle, CURLOPT_VERBOSE, 1L); to display additional information
 
