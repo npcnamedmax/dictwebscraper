@@ -1,6 +1,6 @@
 #define CURL_STATICLIB
 
-#include "/usr/include/x86_64-linux-gnu/curl/curl.h"
+#include "/usr/include/x86_64-linux-gnu/curl/curl.h" //path to libcurl
 
 #include <cstring>
 
